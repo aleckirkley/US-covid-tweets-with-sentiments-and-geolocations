@@ -1,4 +1,4 @@
-# US-covid-tweets-w-sentiments-and-geolocations
+# US-covid-tweets-with-sentiments-and-geolocations
 
 This repository contains Tweet IDs and AWS Comprehend sentiment classifications (Positive, Neutral, Negative, Mixed) for all tweets analyzed in the paper "Online geolocalized emotion across US cities during the COVID crisis: Universality, policy response, and connection with local mobility". All Tweet IDs in the repository have 'geo' or 'user_location' attributes associated with them, which can be extracted after hydrating the IDs. IDs are organized into folders by date, and stored along with sentiments in csv files with columns "ID" and "Sentiment". A suggested resource for hydrating the tweets is the [Hydrator GUI](https://github.com/DocNow/hydrator), which allows for hydration with a user-friendly interface and progress indicators.
 
